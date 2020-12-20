@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    color:white;
+}
+.app{
+    width:100%;
+    height:100vh;
+}
+header{
+    text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dateFrom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    flex-wrap: wrap;
 }
+
+.dateFrom-input{
+    border:none;
+    outline:none;
+    padding:0.5em;
+    border-radius:20px;
+}
+
+.dateTo-input{
+    border:none;
+    outline:none;
+    padding:0.5em;
+    margin:10px;
+    border-radius:20px;
+}
+
+.submit-btn{
+    outline:none;
+    padding:0.5em;
+}
+
+.show-date{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:30px;
+    flex-wrap: wrap;
+}
+
+.data{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:50vh;
+}
+
+.loading{
+    position:fixed;
+    left:6em!important;
+}
+
+.spinner{
+    width:100px;
+    height:100px;
+}
+
+
